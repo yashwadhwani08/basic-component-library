@@ -84,6 +84,7 @@ h1{
 .hero{
     
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .hero-image{
     max-width: 350px;
@@ -131,3 +132,34 @@ h1{
 .footer ul{
     padding-inline-start: 0px;
 }
+
+.link-padding{
+    padding:1rem 0rem;
+}
+
+ol li::marker{
+    color:var(--primary-color);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.section-margin{
+    margin:0px;
+}
+
+.ol-padding-start{
+    padding-inline-start: 0px;
+}
+
+.blog-img{
+    max-width: 350px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display:block;
+    margin:auto;
+}
+
+.blog-heading{
+    padding-top:10px;
+}
+
